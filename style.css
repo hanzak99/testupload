@@ -34,13 +34,13 @@ body {
     text-align: center;
 
 }
-.btn{
+.btn a{
     padding: 7px 16px;
     display: inline-block;
     border-radius: 5px;
     transition:all 0.3s ease-in-out;
 }
-.btn-link{
+.btn-link a{
     background: #111319;
     color: #fff;
     cursor: pointer;
@@ -71,6 +71,7 @@ h1{
     margin: 10px 0;
     padding: 10px 0 10px 20px;
     background-image: -webkit-linear-gradient(92deg, #321ed9, #0300a8);
+    text-align: center;
     -webkit-background-clip: text;
     background-clip: text;
 	-webkit-text-fill-color: transparent;
